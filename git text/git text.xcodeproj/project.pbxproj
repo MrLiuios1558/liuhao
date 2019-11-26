@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5667DE4238D05B400F4E453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5667DE3238D05B400F4E453 /* AppDelegate.m */; };
+		C5667DE6238D05B500F4E453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5667DE5238D05B500F4E453 /* Assets.xcassets */; };
+		C5667DE9238D05B500F4E453 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5667DE7238D05B500F4E453 /* MainMenu.xib */; };
+		C5667DEC238D05B500F4E453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5667DEB238D05B500F4E453 /* main.m */; };
+		C5667DF7238D05B500F4E453 /* git_textTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5667DF6238D05B500F4E453 /* git_textTests.m */; };
+		C5667E02238D05B500F4E453 /* git_textUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5667E01238D05B500F4E453 /* git_textUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5667DF3238D05B500F4E453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5667DD7238D05B400F4E453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5667DDE238D05B400F4E453;
+			remoteInfo = "git text";
+		};
+		C5667DFE238D05B500F4E453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5667DD7238D05B400F4E453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5667DDE238D05B400F4E453;
+			remoteInfo = "git text";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5667DDF238D05B400F4E453 /* git text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5667DE2238D05B400F4E453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5667DE3238D05B400F4E453 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5667DE5238D05B500F4E453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5667DE8238D05B500F4E453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C5667DEA238D05B500F4E453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5667DEB238D05B500F4E453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5667DED238D05B500F4E453 /* git_text.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = git_text.entitlements; sourceTree = "<group>"; };
+		C5667DF2238D05B500F4E453 /* git textTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git textTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5667DF6238D05B500F4E453 /* git_textTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_textTests.m; sourceTree = "<group>"; };
+		C5667DF8238D05B500F4E453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5667DFD238D05B500F4E453 /* git textUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git textUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5667E01238D05B500F4E453 /* git_textUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_textUITests.m; sourceTree = "<group>"; };
+		C5667E03238D05B500F4E453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5667DDC238D05B400F4E453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5667DEF238D05B500F4E453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5667DFA238D05B500F4E453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5667DD6238D05B400F4E453 = {
+			isa = PBXGroup;
+			children = (
+				C5667DE1238D05B400F4E453 /* git text */,
+				C5667DF5238D05B500F4E453 /* git textTests */,
+				C5667E00238D05B500F4E453 /* git textUITests */,
+				C5667DE0238D05B400F4E453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5667DE0238D05B400F4E453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5667DDF238D05B400F4E453 /* git text.app */,
+				C5667DF2238D05B500F4E453 /* git textTests.xctest */,
+				C5667DFD238D05B500F4E453 /* git textUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5667DE1238D05B400F4E453 /* git text */ = {
+			isa = PBXGroup;
+			children = (
+				C5667DE2238D05B400F4E453 /* AppDelegate.h */,
+				C5667DE3238D05B400F4E453 /* AppDelegate.m */,
+				C5667DE5238D05B500F4E453 /* Assets.xcassets */,
+				C5667DE7238D05B500F4E453 /* MainMenu.xib */,
+				C5667DEA238D05B500F4E453 /* Info.plist */,
+				C5667DEB238D05B500F4E453 /* main.m */,
+				C5667DED238D05B500F4E453 /* git_text.entitlements */,
+			);
+			path = "git text";
+			sourceTree = "<group>";
+		};
+		C5667DF5238D05B500F4E453 /* git textTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5667DF6238D05B500F4E453 /* git_textTests.m */,
+				C5667DF8238D05B500F4E453 /* Info.plist */,
+			);
+			path = "git textTests";
+			sourceTree = "<group>";
+		};
+		C5667E00238D05B500F4E453 /* git textUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5667E01238D05B500F4E453 /* git_textUITests.m */,
+				C5667E03238D05B500F4E453 /* Info.plist */,
+			);
+			path = "git textUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5667DDE238D05B400F4E453 /* git text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5667E06238D05B500F4E453 /* Build configuration list for PBXNativeTarget "git text" */;
+			buildPhases = (
+				C5667DDB238D05B400F4E453 /* Sources */,
+				C5667DDC238D05B400F4E453 /* Frameworks */,
+				C5667DDD238D05B400F4E453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "git text";
+			productName = "git text";
+			productReference = C5667DDF238D05B400F4E453 /* git text.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5667DF1238D05B500F4E453 /* git textTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5667E09238D05B500F4E453 /* Build configuration list for PBXNativeTarget "git textTests" */;
+			buildPhases = (
+				C5667DEE238D05B500F4E453 /* Sources */,
+				C5667DEF238D05B500F4E453 /* Frameworks */,
+				C5667DF0238D05B500F4E453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5667DF4238D05B500F4E453 /* PBXTargetDependency */,
+			);
+			name = "git textTests";
+			productName = "git textTests";
+			productReference = C5667DF2238D05B500F4E453 /* git textTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5667DFC238D05B500F4E453 /* git textUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5667E0C238D05B500F4E453 /* Build configuration list for PBXNativeTarget "git textUITests" */;
+			buildPhases = (
+				C5667DF9238D05B500F4E453 /* Sources */,
+				C5667DFA238D05B500F4E453 /* Frameworks */,
+				C5667DFB238D05B500F4E453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5667DFF238D05B500F4E453 /* PBXTargetDependency */,
+			);
+			name = "git textUITests";
+			productName = "git textUITests";
+			productReference = C5667DFD238D05B500F4E453 /* git textUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5667DD7238D05B400F4E453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = zhonglian;
+				TargetAttributes = {
+					C5667DDE238D05B400F4E453 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C5667DF1238D05B500F4E453 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C5667DDE238D05B400F4E453;
+					};
+					C5667DFC238D05B500F4E453 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C5667DDE238D05B400F4E453;
+					};
+				};
+			};
+			buildConfigurationList = C5667DDA238D05B400F4E453 /* Build configuration list for PBXProject "git text" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5667DD6238D05B400F4E453;
+			productRefGroup = C5667DE0238D05B400F4E453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5667DDE238D05B400F4E453 /* git text */,
+				C5667DF1238D05B500F4E453 /* git textTests */,
+				C5667DFC238D05B500F4E453 /* git textUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5667DDD238D05B400F4E453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5667DE6238D05B500F4E453 /* Assets.xcassets in Resources */,
+				C5667DE9238D05B500F4E453 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5667DF0238D05B500F4E453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5667DFB238D05B500F4E453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5667DDB238D05B400F4E453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5667DEC238D05B500F4E453 /* main.m in Sources */,
+				C5667DE4238D05B400F4E453 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5667DEE238D05B500F4E453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5667DF7238D05B500F4E453 /* git_textTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5667DF9238D05B500F4E453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5667E02238D05B500F4E453 /* git_textUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5667DF4238D05B500F4E453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5667DDE238D05B400F4E453 /* git text */;
+			targetProxy = C5667DF3238D05B500F4E453 /* PBXContainerItemProxy */;
+		};
+		C5667DFF238D05B500F4E453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5667DDE238D05B400F4E453 /* git text */;
+			targetProxy = C5667DFE238D05B500F4E453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5667DE7238D05B500F4E453 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5667DE8238D05B500F4E453 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5667E04238D05B500F4E453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C5667E05238D05B500F4E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C5667E07238D05B500F4E453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "git text/git_text.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BRWBRZ29Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "git text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhonglian.hanzheng.git-text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5667E08238D05B500F4E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "git text/git_text.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BRWBRZ29Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "git text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhonglian.hanzheng.git-text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5667E0A238D05B500F4E453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BRWBRZ29Q;
+				INFOPLIST_FILE = "git textTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhonglian.hanzheng.git-textTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git text.app/Contents/MacOS/git text";
+			};
+			name = Debug;
+		};
+		C5667E0B238D05B500F4E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BRWBRZ29Q;
+				INFOPLIST_FILE = "git textTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhonglian.hanzheng.git-textTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git text.app/Contents/MacOS/git text";
+			};
+			name = Release;
+		};
+		C5667E0D238D05B500F4E453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BRWBRZ29Q;
+				INFOPLIST_FILE = "git textUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhonglian.hanzheng.git-textUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "git text";
+			};
+			name = Debug;
+		};
+		C5667E0E238D05B500F4E453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BRWBRZ29Q;
+				INFOPLIST_FILE = "git textUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhonglian.hanzheng.git-textUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "git text";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5667DDA238D05B400F4E453 /* Build configuration list for PBXProject "git text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5667E04238D05B500F4E453 /* Debug */,
+				C5667E05238D05B500F4E453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5667E06238D05B500F4E453 /* Build configuration list for PBXNativeTarget "git text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5667E07238D05B500F4E453 /* Debug */,
+				C5667E08238D05B500F4E453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5667E09238D05B500F4E453 /* Build configuration list for PBXNativeTarget "git textTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5667E0A238D05B500F4E453 /* Debug */,
+				C5667E0B238D05B500F4E453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5667E0C238D05B500F4E453 /* Build configuration list for PBXNativeTarget "git textUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5667E0D238D05B500F4E453 /* Debug */,
+				C5667E0E238D05B500F4E453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5667DD7238D05B400F4E453 /* Project object */;
+}
